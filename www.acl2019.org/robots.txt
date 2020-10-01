@@ -1,0 +1,4 @@
+Sitemap: http://www.acl2019.org/sitemap.xml
+User-agent: *
+Disallow: /toki/
+Disallow: /assets/

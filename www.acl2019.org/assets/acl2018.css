@@ -1,0 +1,325 @@
+
+.tutorial-presenters {
+  margin-top: 0px; }
+
+.tute-title h3 {
+  margin-bottom: 5px; }
+
+.post-content td, .post-content th {
+  padding-left: 8px;
+  padding-right: 8px; }
+
+.news-archive {
+  margin-left: 30px;
+  font-size: 80%;
+  text-transform: uppercase; }
+
+.conc-session {
+  width: 15.8333333333% !important; }
+
+.day-program td {
+text-align: left;
+  vertical-align: top;
+  hyphens: auto; }
+
+.talk-title {
+  font-style: italic; }
+
+.talk-time {
+  font-size: 0.8em;
+  font-weight: bold; }
+
+div.talk {
+  height: 10em;
+  overflow: hidden;
+  padding: 4px;
+  margin-top: 2px; }
+
+table.day-program {
+  font-size: 14px;
+  width: 100%; }
+  @media screen and (max-width: 800px) {
+    table.day-program {
+      font-size: 12px; } }
+  @media screen and (max-width: 670px) {
+    table.day-program {
+      font-size: 10px; } }
+
+.cal-link {
+  margin-right: 5px; }
+
+.cal-link.small {
+  margin-right: 3px; }
+
+.session-location {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-style: italic; }
+
+.session-name {
+  font-weight: bold; }
+
+.conc-session-location {
+  padding-bottom: 8px; }
+
+.bookable {
+  background-color: #e8e8e8; }
+
+.session-details {
+  padding-left: 2px;
+  padding-right: 2px; }
+
+.session-details, .poster-session-top {
+  font-size: 0.9em; }
+
+.select-cal-protocol {
+  font-size: 13px;
+  text-align: right;
+  margin-bottom: 10px; }
+
+.selected .calendarmode {
+  font-weight: bold; }
+
+#schedule {
+  clear: both; }
+
+.select-cal-protocol .name {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.calendarmode i {
+  margin-left: 4px;
+  margin-right: 4px; }
+
+.cal-protocol {
+  margin-left: 8px; }
+
+.session-speakers {
+  font-style: italic;
+  font-size: 90%; }
+
+.session-chair-label {
+  font-weight: bold; }
+
+.selected td.shared-name, .selected.talk {
+  background-color: #a4b9fb; }
+  @media print {
+    .selected td.shared-name, .selected.talk {
+      border: 2px solid #809fff; } }
+
+@media print {
+  .fas.fa-link {
+    display: none; }
+
+  #schedule {
+    font-size: 10pt; } }
+p.speaker {
+  font-style: italic; }
+
+.bio {
+  margin: 20px 30px;
+  color: #585858; }
+
+.speaker-pic {
+  max-width: 140px; }
+
+.book-hotel {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 85%;
+  font-weight: bold; }
+
+.tutorial-time, .tutorial-location {
+  margin-top: 0px;
+  font-weight: bold;
+  color: #555; }
+
+td.conc-session, .conc-session-details-row td.session-details {
+  padding-left: 2px;
+  padding-right: 2px; }
+
+.day-program td.conc-session {
+  hyphens: none; }
+
+.session-times, .session-name {
+  display: inline-block; }
+
+.session-times {
+  width: 7em; }
+
+.session-times {
+  color: #555;
+  font-weight: bold;
+  font-style: italic; }
+
+.calendar-sync {
+  margin-top: 20px; }
+  .calendar-sync ul {
+    list-style-type: none; }
+
+.badge {
+  background-color: #888;
+  padding: 1px 3px;
+  color: white;
+  display: inline;
+  font-weight: bold;
+  font-size: 77%;
+  font-style: normal; }
+
+.tacl-badge::after {
+  content: "TACL"; }
+
+.session-suffix::before {
+  content: ": "; }
+
+.session-suffix:empty::before {
+  content: ""; }
+
+#search {
+  width: 20em;
+  margin-left: 5px;
+  font-size: 16px; }
+
+#search-pane {
+  float: right;
+  font-size: 12px; }
+
+.instructions {
+  font-style: italic;
+  font-size: 85%;
+  margin-bottom: 20px; }
+
+.non-bookable {
+  background-color: #f2f2f2; }
+
+.poster .talk-title {
+  margin-top: 4px; }
+
+.poster-scrollable {
+  overflow: scroll;
+  max-height: 30em; }
+
+.day-schedule {
+  margin-top: 2em; }
+
+.crit-ann-text .fa-li {
+  color: red; }
+
+.hash-highlighted {
+  background-color: rgba(255, 255, 0, 0.3);
+  font-weight: bold; }
+
+.poster-name {
+  font-style: italic; }
+  .poster-name .hashlink {
+    margin-left: 5px; }
+
+.poster-session-name {
+  font-weight: bold;
+  display: inline;
+  margin-right: 2em; }
+
+.poster-sub-session {
+  margin-top: 3px; }
+
+.listing a.vidlink {
+  font-size: 75%;
+  vertical-align: middle;
+  margin-right: 5px; }
+
+a.hashlink, .talk a.vidlink {
+  font-size: 75%; }
+  a.hashlink:link, a.hashlink:active, a.hashlink:visited, a.hashlink:hover, .talk a.vidlink:link, .talk a.vidlink:active, .talk a.vidlink:visited, .talk a.vidlink:hover {
+    color: black; }
+
+.times-and-name {
+  display: inline-block; }
+
+.session-name-cell .shared-session-location {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  margin-top: 3px; }
+
+@media screen and (max-width: 670px) {
+  .social-text {
+    display: none; }
+
+  #footer-main .icon {
+    font-size: 24px; } }
+.footer-policy {
+  font-size: 70%;
+  max-width: 920px;
+  margin: 5px auto;
+  text-align: left; }
+  .footer-policy a:link, .footer-policy a:active, .footer-policy a:visited, .footer-policy a:hover {
+    color: #606060; }
+
+#overview .item-name {
+  font-size: 13px; }
+#overview .start-time {
+  font-size: 11px;
+  font-weight: bold; }
+@media screen and (max-width: 670px) {
+  #overview .item-name {
+    font-size: 11px; }
+  #overview .start-time {
+    font-size: 9px; }
+  #overview .day-name {
+    font-size: 12px; } }
+#overview td.day-wrapper {
+  padding: 0px;
+  width: 15.83% !important; }
+#overview .overview-row {
+  vertical-align: top; }
+#overview .overview-row {
+  vertical-align: top; }
+#overview table.overview-day {
+  width: 100%; }
+#overview .overview-item {
+  vertical-align: top;
+  background-color: #ddd;
+  overflow: hidden; }
+#overview .day-name {
+  white-space: nowrap;
+  font-size: 14px; }
+#overview .day-subtitle {
+  whitespace: nowrap;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 11px; }
+
+.extra-note {
+  font-style: italic;
+  font-size: 85%; }
+
+.paper-abstract {
+  font-style: italic; }
+
+.author-list {
+  font-weight: bold;
+  font-size: 85%; }
+
+#schedule a {
+  color: #084aa1; }
+
+.current {
+  background-color: #e7d2fb; }
+  .current.selected {
+    background-color: #bfa4fb; }
+
+.current .talk-time::after {
+  content: " ▶︎ NOW"; }
+
+.selected .talk-title::before, .selected .session-name::before {
+  content: " ★ "; }
+
+.current .session-name::before {
+  content: " ▶︎ "; }
+
+#schedule .current .bookable {
+  background-color: #e7d2fb; }
+#schedule .current.selected .bookable {
+  background-color: #bfa4fb; }
