@@ -1,0 +1,1 @@
+This repository holds a resurrected version of the ACL 2019 conference website. The original website was hosted on AWS and the code and data were not added to GitHub. The code in this repository is a straightforward dump of that original website which is where some of the URLs might look a little strange. 
